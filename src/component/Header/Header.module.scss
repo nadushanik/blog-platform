@@ -1,0 +1,86 @@
+.header {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title {
+    background-color: inherit;
+    font-size: 18px;
+    color: #000000D9;
+    padding-left: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.but {
+    margin: 22px;
+    background-color: inherit;
+}
+.buttonIn {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000D9;
+}
+.buttonUp {
+    border: 1px solid #52c41a;
+    border-radius: 5px;
+    color: #52c41a;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding: 6px 18px 10px;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: 18px;
+    text-decoration: none;
+}
+.buttonLogout {
+    border: 1px solid #000000BF;
+    border-radius: 5px;
+    color: #000000BF;
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 6px 18px 10px;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: 18px;
+    text-decoration: none;
+}
+.avatarContainer{
+    display: flex;
+    gap: 13px;
+    text-decoration: none;
+}
+.avatar{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.username{
+    align-self: center;
+    color: #000000D9;
+    font-size: 18px;
+}
+.rigth{
+    display: flex;
+}
+.createart{
+    border: 1px solid #52c41a;
+    border-radius: 5px;
+    color: #52c41a;
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    align-self: center;
+}
